@@ -6,4 +6,7 @@
     <RootNamespace>LinkedList_Implementation</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CustomLinkedListLib\CustomLinkedListLib.csproj" />
+  </ItemGroup>
 </Project>

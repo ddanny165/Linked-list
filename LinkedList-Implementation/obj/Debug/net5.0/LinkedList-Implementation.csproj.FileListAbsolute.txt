@@ -13,3 +13,6 @@
 /Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/obj/Debug/net5.0/ref/LinkedList-Implementation.dll
 /Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/obj/Debug/net5.0/LinkedList-Implementation.pdb
 /Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/obj/Debug/net5.0/LinkedList-Implementation.genruntimeconfig.cache
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/bin/Debug/net5.0/CustomLinkedListLib.dll
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/bin/Debug/net5.0/CustomLinkedListLib.pdb
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/obj/Debug/net5.0/LinkedList-Implementation.csproj.CopyComplete

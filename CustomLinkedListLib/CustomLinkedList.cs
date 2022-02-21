@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace LinkedList_Implementation
+namespace CustomLinkedListLib
 {
     public class CustomLinkedList<T> : ICollection<T>, IEnumerable<T>, IReadOnlyCollection<T>
     {

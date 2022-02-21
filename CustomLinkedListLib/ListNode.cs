@@ -1,4 +1,4 @@
-﻿namespace LinkedList_Implementation
+﻿namespace CustomLinkedListLib
 {
     public class ListNode<T>
     {

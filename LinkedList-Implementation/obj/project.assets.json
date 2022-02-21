@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "CustomLinkedListLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CustomLinkedListLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomLinkedListLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CustomLinkedListLib/1.0.0": {
+      "type": "project",
+      "path": "../CustomLinkedListLib/CustomLinkedListLib.csproj",
+      "msbuildProject": "../CustomLinkedListLib/CustomLinkedListLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "CustomLinkedListLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/danylomoskaliuk/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/CustomLinkedListLib.csproj": {
+              "projectPath": "/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/CustomLinkedListLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

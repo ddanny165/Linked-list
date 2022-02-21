@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "LinkedList-Implementation/1.0.0": {
-        "dependencies": {
-          "CustomLinkedListLib": "1.0.0"
-        },
-        "runtime": {
-          "LinkedList-Implementation.dll": {}
-        }
-      },
       "CustomLinkedListLib/1.0.0": {
         "runtime": {
           "CustomLinkedListLib.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "LinkedList-Implementation/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "CustomLinkedListLib/1.0.0": {
       "type": "project",
       "serviceable": false,

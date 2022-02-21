@@ -1,0 +1,11 @@
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/bin/Debug/net5.0/CustomLinkedListLib.deps.json
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/bin/Debug/net5.0/CustomLinkedListLib.dll
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/bin/Debug/net5.0/ref/CustomLinkedListLib.dll
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/bin/Debug/net5.0/CustomLinkedListLib.pdb
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/obj/Debug/net5.0/CustomLinkedListLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/obj/Debug/net5.0/CustomLinkedListLib.AssemblyInfoInputs.cache
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/obj/Debug/net5.0/CustomLinkedListLib.AssemblyInfo.cs
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/obj/Debug/net5.0/CustomLinkedListLib.csproj.CoreCompileInputs.cache
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/obj/Debug/net5.0/CustomLinkedListLib.dll
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/obj/Debug/net5.0/ref/CustomLinkedListLib.dll
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/obj/Debug/net5.0/CustomLinkedListLib.pdb
