@@ -6,6 +6,12 @@ namespace LinkedList_Implementation
 {
     public class CustomLinkedList<T> : ICollection<T>, IEnumerable<T>, IReadOnlyCollection<T>
     {
+        public event Action<T> AddedElement;
+
+        public event Action<T> RemovedElement;
+
+        public event Action ClearedCollection;
+
         public ListNode<T> First { get; private set; }
 
         public ListNode<T> Last { get; private set; }
@@ -46,7 +52,9 @@ namespace LinkedList_Implementation
                 Last = First;
             }
 
+            AddedElement?.Invoke(NodeToAdd.Value);
             Count++;
+
             return NodeToAdd;
         }
 
@@ -64,6 +72,7 @@ namespace LinkedList_Implementation
                 NodeToAdd.PreviousNode = Last;
             }
 
+            AddedElement?.Invoke(NodeToAdd.Value);
             Last = NodeToAdd;
             Count++;
 
@@ -99,8 +108,10 @@ namespace LinkedList_Implementation
                 Node.PreviousNode.NextNode = NodeToAdd;
                 Node.PreviousNode = NodeToAdd;
             }
-     
+
+            AddedElement?.Invoke(NodeToAdd.Value);
             Count++;
+
             return NodeToAdd;
         }
 
@@ -117,7 +128,6 @@ namespace LinkedList_Implementation
             if (!this.ContainsNode(Node))
                 throw new ArgumentException();
             
-
             ListNode<T> NodeToAdd = new ListNode<T>(value);
 
             // if node to add after is the last one
@@ -135,7 +145,9 @@ namespace LinkedList_Implementation
                 Node.NextNode = NodeToAdd;
             }
 
+            AddedElement?.Invoke(NodeToAdd.Value);
             Count++;
+
             return NodeToAdd;
         }
 
@@ -183,6 +195,7 @@ namespace LinkedList_Implementation
                     First = Current.NextNode;
                 }
 
+                RemovedElement?.Invoke(Current.Value);
                 Count--;
                 return true;
             }
@@ -198,7 +211,10 @@ namespace LinkedList_Implementation
                 return false;
             }
 
+            RemovedElement?.Invoke(First.Value);
+            First.NextNode.PreviousNode = null;
             First = First.NextNode ?? null;
+            
             Count--;
             return true;
         }
@@ -211,7 +227,10 @@ namespace LinkedList_Implementation
                 return false;
             }
 
+            RemovedElement?.Invoke(Last.Value);
+            Last.PreviousNode.NextNode = null;
             Last = Last.PreviousNode ?? null;
+            
             Count--;
             return true;
         }
@@ -251,6 +270,8 @@ namespace LinkedList_Implementation
             First = null;
             Last = null;
             Count = 0;
+
+            ClearedCollection?.Invoke();
         }
 
         public bool Contains(T value)
@@ -272,7 +293,6 @@ namespace LinkedList_Implementation
             if (nodeToCheck == null)
                throw new ArgumentNullException();
             
-
             ListNode<T> Current = First;
 
             while (Current != null)
