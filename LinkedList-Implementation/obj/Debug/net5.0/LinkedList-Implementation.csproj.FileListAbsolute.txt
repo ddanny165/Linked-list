@@ -1,0 +1,15 @@
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/bin/Debug/net5.0/LinkedList-Implementation.deps.json
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/bin/Debug/net5.0/LinkedList-Implementation.runtimeconfig.json
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/bin/Debug/net5.0/LinkedList-Implementation.runtimeconfig.dev.json
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/bin/Debug/net5.0/LinkedList-Implementation.dll
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/bin/Debug/net5.0/ref/LinkedList-Implementation.dll
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/bin/Debug/net5.0/LinkedList-Implementation.pdb
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/obj/Debug/net5.0/LinkedList-Implementation.csproj.AssemblyReference.cache
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/obj/Debug/net5.0/LinkedList-Implementation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/obj/Debug/net5.0/LinkedList-Implementation.AssemblyInfoInputs.cache
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/obj/Debug/net5.0/LinkedList-Implementation.AssemblyInfo.cs
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/obj/Debug/net5.0/LinkedList-Implementation.csproj.CoreCompileInputs.cache
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/obj/Debug/net5.0/LinkedList-Implementation.dll
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/obj/Debug/net5.0/ref/LinkedList-Implementation.dll
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/obj/Debug/net5.0/LinkedList-Implementation.pdb
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/obj/Debug/net5.0/LinkedList-Implementation.genruntimeconfig.cache
