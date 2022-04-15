@@ -1,5 +1,6 @@
 ﻿using System;
 using CustomLinkedListLib;
+using System.Collections.Generic;
 
 namespace LinkedList_Implementation
 {
@@ -16,8 +17,8 @@ namespace LinkedList_Implementation
 
             for (int i = 1; i < 6; i++)
             {
-                myList.Add(i);
-            }
+                myList.AddLast(i);
+            }         
 
             foreach(var item in myList)
             {

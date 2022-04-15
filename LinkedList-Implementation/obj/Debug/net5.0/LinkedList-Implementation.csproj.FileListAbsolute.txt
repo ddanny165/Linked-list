@@ -16,3 +16,7 @@
 /Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/bin/Debug/net5.0/CustomLinkedListLib.dll
 /Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/bin/Debug/net5.0/CustomLinkedListLib.pdb
 /Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/obj/Debug/net5.0/LinkedList-Implementation.csproj.CopyComplete
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/bin/Debug/net5.0/xunit.abstractions.dll
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/bin/Debug/net5.0/xunit.assert.dll
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/bin/Debug/net5.0/xunit.core.dll
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/LinkedList-Implementation/bin/Debug/net5.0/xunit.execution.dotnet.dll

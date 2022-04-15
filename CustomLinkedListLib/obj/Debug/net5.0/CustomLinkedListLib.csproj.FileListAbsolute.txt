@@ -9,3 +9,7 @@
 /Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/obj/Debug/net5.0/CustomLinkedListLib.dll
 /Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/obj/Debug/net5.0/ref/CustomLinkedListLib.dll
 /Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/obj/Debug/net5.0/CustomLinkedListLib.pdb
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/bin/Debug/net5.0/CustomLinkedListLib.runtimeconfig.json
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/bin/Debug/net5.0/CustomLinkedListLib.runtimeconfig.dev.json
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/obj/Debug/net5.0/CustomLinkedListLib.csproj.AssemblyReference.cache
+/Users/danylomoskaliuk/Projects/LinkedList-Implementation/CustomLinkedListLib/obj/Debug/net5.0/CustomLinkedListLib.genruntimeconfig.cache

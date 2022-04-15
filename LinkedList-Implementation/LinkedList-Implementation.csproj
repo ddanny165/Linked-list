@@ -9,4 +9,10 @@
   <ItemGroup>
     <ProjectReference Include="..\CustomLinkedListLib\CustomLinkedListLib.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="xunit" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.4.1" />
+  </ItemGroup>
 </Project>

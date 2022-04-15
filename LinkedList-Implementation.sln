@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList-Implementation",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLinkedListLib", "CustomLinkedListLib\CustomLinkedListLib.csproj", "{AC2860CB-5ABD-41C8-86FF-D6F0C2AE3932}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLinkedNUnitTests", "CustomLinkedNUnitTests\CustomLinkedNUnitTests.csproj", "{3BF31124-E4C5-403F-AFED-ED6307891BDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AC2860CB-5ABD-41C8-86FF-D6F0C2AE3932}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC2860CB-5ABD-41C8-86FF-D6F0C2AE3932}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC2860CB-5ABD-41C8-86FF-D6F0C2AE3932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BF31124-E4C5-403F-AFED-ED6307891BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF31124-E4C5-403F-AFED-ED6307891BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF31124-E4C5-403F-AFED-ED6307891BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF31124-E4C5-403F-AFED-ED6307891BDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
